@@ -35,3 +35,9 @@
 Deploy
 ![alt text](./images/13.png "Title")
 
+# CLI
+Build
+- gcloud builds submit --tag gcr.io/classfunc-com/tim-xe-api
+
+Run
+- gcloud run deploy --image gcr.io/classfunc-com/tim-xe-api --platform managed
